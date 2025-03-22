@@ -1,0 +1,50 @@
+.Container {
+  padding: 16px;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  background-color: rgb(236, 229, 229);
+}
+
+.inputfield {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 1.5px;
+  position: relative;
+}
+
+.inputfield input {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  flex-grow: 1;
+}
+.inputfield button {
+  background-color: rgb(24, 24, 171);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.inputfield button:hover {
+  background-color: rgb(68, 68, 251);
+}
+.newContainer {
+  padding-top: 10px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.length {
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.copied-text {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  transform: translateY(10%);
+  font-size: 14px;
+  font-weight: bold;
+}
